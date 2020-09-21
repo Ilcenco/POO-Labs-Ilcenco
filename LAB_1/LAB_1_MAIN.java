@@ -16,23 +16,23 @@ public class LAB_1_MAIN {
     }
 
     public static void main(String[] args) {
-        ////////////////////////////////////////////NOTA 5-6////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////NOTA 5-6///////////////////////////////////////////////////////////
         System.out.println();
         System.out.println("Nota 5-6:");
         Monitor mon1 = new Monitor("Black", 34, 18, 3000, 2000);
         Monitor mon2 = new Monitor("Green", 46, 22, 720, 320);
         CompMon tt = new CompMon();
         tt.comp(mon1.color, mon2.color, mon1.d1, mon1.d2, mon2.d1, mon2.d2, mon1.r1, mon1.r2, mon2.r1, mon2.r2);
-        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
         System.out.println();
         System.out.println("Nota 7-8:");
 
         ////////////////////////////////////////////Nota 7-8////////////////////////////////////////////////////////////
         Univeristy u1 = new Univeristy("UTM", 1856);
-        Student s1 = new Student("Andrei", 14, 8.5);
+        Student s1 = new Student("Andrei", 14, 6.5);
         Student s2 = new Student("Mike", 15, 9.3);
-        Student s3 = new Student("Tomy", 14, 6.7);
+        Student s3 = new Student("Tomy", 16, 6.7);
         u1.list.add(s1);
         u1.list.add(s2);
         u1.list.add(s3);
