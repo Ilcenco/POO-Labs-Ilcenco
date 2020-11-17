@@ -8,17 +8,17 @@ public class Lab_7_Main {
         Rectangle dreptunghi = new Rectangle(14, 50);
         Triangle triunghi = new Triangle(30, 40, 50);
 
-        Figure Circle = new Figure(){
+        Figure Circle = new Figure() {
             public float r = 15;
 
             @Override
             public float getArea() {
-                return (float) (Math.PI*r*r);
+                return (float) (Math.PI * r * r);
             }
 
             @Override
             public float getPerimeter() {
-                return (float) (Math.PI*2*r);
+                return (float) (Math.PI * 2 * r);
             }
 
             @Override
@@ -32,7 +32,7 @@ public class Lab_7_Main {
         lista.add(triunghi);
         lista.add(Circle);
 
-        for(Figure f :lista){
+        for (Figure f : lista) {
             System.out.println(f);
             System.out.println("Aria: " + f.getArea());
             System.out.println("Perimeter: " + f.getPerimeter());

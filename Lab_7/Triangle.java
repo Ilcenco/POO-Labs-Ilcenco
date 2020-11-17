@@ -1,10 +1,10 @@
 package Lab_7;
 
-public class Triangle extends Figure{
+public class Triangle extends Figure {
     public float lat1, lat2, lat3;
-    public float a,p;
+    public float a, p;
 
-    public Triangle(float lat1, float lat2, float lat3){
+    public Triangle(float lat1, float lat2, float lat3) {
         this.lat1 = lat1;
         this.lat2 = lat2;
         this.lat3 = lat3;
@@ -12,7 +12,7 @@ public class Triangle extends Figure{
 
     @Override
     public float getArea() {
-        float sp = (lat1 + lat2 + lat3)/2;
+        float sp = (lat1 + lat2 + lat3) / 2;
         a = (float) Math.sqrt(sp * (sp - lat1) * (sp - lat2) * (sp - lat3));
         return a;
     }

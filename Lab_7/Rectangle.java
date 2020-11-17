@@ -6,7 +6,7 @@ public class Rectangle extends Figure {
 
     public float a, p;
 
-    public Rectangle(float lat1, float lat2){
+    public Rectangle(float lat1, float lat2) {
         this.lat1 = lat1;
         this.lat2 = lat2;
     }
@@ -19,7 +19,7 @@ public class Rectangle extends Figure {
 
     @Override
     public float getPerimeter() {
-        p = lat1*2 + lat2*2;
+        p = lat1 * 2 + lat2 * 2;
         return p;
     }
 
